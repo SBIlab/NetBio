@@ -44,7 +44,7 @@ cFeature = 'TMB'
 reactome = reactome_genes()
 
 # biomarker genes
-#bio_df = pd.read_csv('/home/user/shared/ImmunoTherapy/Marker_summary_ver1.txt', sep='\t')
+#bio_df = pd.read_csv('/home/user/shared/ImmunoTherapy/Marker_summary.txt', sep='\t')
 bio_df = pd.read_csv('../../data/Marker_summary.txt', sep='\t')
 
 # cohort targets
@@ -232,22 +232,9 @@ for fldr in os.listdir(data_dir):
 				pred_output['nGene'].append(num_genes)
 				pred_output['qval'].append(qval_cutoff)
 				pred_output['sample'].append(sample_dic[test_type][test_idx[0]])
-				pred_output['predicted_response'].append(pred_status)
 				pred_output['pred_proba'].append(pred_proba)
-				pred_output['observed_response'].append(y_test[0])
-
-			
-			if len(pred_responses)==0:
-				continue
-
-			# predict dataframe
-			pred_df = defaultdict(list)
-			pred_df['obs'] = obs_responses
-			pred_df['pred'] = pred_responses
-			pred_df = pd.DataFrame(data=pred_df, columns=['obs', 'pred'])
-			print(pred_df)
 
 
 
-pred_output = pd.DataFrame(data=pred_output, columns=['study', 'test_type', 'ML', 'nGene', 'qval', 'sample', 'predicted_response', 'pred_proba', 'observed_response'])
+pred_output = pd.DataFrame(data=pred_output, columns=['study', 'test_type', 'ML', 'nGene', 'qval', 'sample', 'pred_proba'])
 pred_output.to_csv('%s/LOOCV_%s_PredictedResponse.txt'%(fo_dir, ML), sep='\t', index=False)
