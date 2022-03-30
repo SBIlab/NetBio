@@ -6,7 +6,7 @@ import pandas as pd
 import time, os, random
 import networkx as nx
 from networkx.algorithms.link_analysis import pagerank
-exec(open('../utilities/network_utilities_ver3.py').read())
+exec(open('../utilities/network_utilities_ver4.py').read())
 exec(open('../utilities/useful_utilities.py').read())
 start = time.ctime()
 
