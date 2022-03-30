@@ -11,7 +11,8 @@
 
 ## Installation
 All packages can be installed via pip (https://pypi.org/project/pip/).
-e.g. pip install sklearn
+
+**e.g.** pip install sklearn
 
 
 ## Description
