@@ -9,6 +9,7 @@
 - lifelines (0.25.7)
 - networkx (2.5)
 - statsmodels (0.12.2)
+- pytorch (1.7.1+cu110)
 
 ## Installation
 All packages can be installed via pip (https://pypi.org/project/pip/).
