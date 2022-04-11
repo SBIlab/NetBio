@@ -19,4 +19,4 @@ All packages can be installed via pip (https://pypi.org/project/pip/).
 
 ## Description
 Source codes for reproducing "Network-based machine learning approach to predict immunotherapy response in cancer patients"
-
+See "Data Availabliity" in the manuscript for information on downloading datasets used in the study.
