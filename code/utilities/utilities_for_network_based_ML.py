@@ -5,7 +5,7 @@ import scipy.stats as stat
 import numpy as np
 import time, os
 from statsmodels.stats.multitest import multipletests
-exec(open('/home/junghokong/BLCA_cisplatin_immunotherapy/code/3_immunotherapy_prediction/useful_utilities.py').read())
+exec(open('./useful_utilities.py').read())
 
 
 
