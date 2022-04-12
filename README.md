@@ -17,9 +17,17 @@ All packages can be installed via pip (https://pypi.org/project/pip/). Generally
 **e.g.** pip install sklearn
 
 
-## Demo
-- Code for reproducing leave-one-out cross-validation (LOOCV) and Monte-Carlo cross-validation is provided under './code/1_within_study_prediction' folder.
+## NetBio predictions
+- Code for reproducing leave-one-out cross-validation (LOOCV) and Monte-Carlo cross-validation is provided under the './code/1_within_study_prediction' folder.
 - Expected results are provided under './result/1_within_study_prediction' folder.
 - The expected run time is under 15 minutes for running LOOCV or Monte-Carlo cross-validation.
 
 
+
+To make LOOCV predictions, run 'compute_LOOCV.py' under the './code/1_within_study_prediction' folder.
+```
+Use the following command line to run 'compute_LOOCV.py' in linux.
+
+python3 compute_LOOCV.py
+```
+LOOCV results are generated under the './result/1_within_study_prediction' folder.
