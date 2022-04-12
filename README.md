@@ -1,4 +1,8 @@
 # NetBio
+## Description
+Source codes for the results in "Network-based machine learning approach to predict immunotherapy response in cancer patients". 
+
+
 ## Requirements
 - python (3.6.12)
 - pandas (1.1.15)
@@ -24,10 +28,14 @@ All packages can be installed via pip (https://pypi.org/project/pip/). Generally
 
 
 
-To make LOOCV predictions, run 'compute_LOOCV.py' under the './code/1_within_study_prediction' folder.
+
 ```
+To make LOOCV predictions, run 'compute_LOOCV.py' under the './code/1_within_study_prediction' folder.
+
 Use the following command line to run 'compute_LOOCV.py' in linux.
 
-python3 compute_LOOCV.py
-```
+  $ python3 compute_LOOCV.py
+
 LOOCV results are generated under the './result/1_within_study_prediction' folder.
+```
+
