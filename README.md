@@ -17,7 +17,9 @@ All packages can be installed via pip (https://pypi.org/project/pip/). Generally
 **e.g.** pip install sklearn
 
 
-## Description
-Source codes for reproducing "Network-based machine learning approach to predict immunotherapy response in cancer patients".
+## Demo
+- Code for reproducing leave-one-out cross-validation (LOOCV) and Monte-Carlo cross-validation is provided under './code/1_within_study_prediction' folder.
+- Expected results are provided under './result/1_within_study_prediction' folder.
+- The expected run time is under 15 minutes for running LOOCV or Monte-Carlo cross-validation.
 
-See "Data Availabliity" in the manuscript for information on downloading the datasets used in the study.
+
