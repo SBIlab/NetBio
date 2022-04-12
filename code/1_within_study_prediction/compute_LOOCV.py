@@ -29,7 +29,7 @@ patNum_cutoff = 1
 num_genes = 200
 qval_cutoff = 0.01
 predict_proba = False # use probability score as a proxy of drug response
-datasets_to_test = ['Gide', 'Liu', 'Kim', 'IMvigor210']
+datasets_to_test = ['Kim'] # ['Gide', 'Liu', 'Kim', 'IMvigor210']
 target_dic = {'Gide':'PD1_CTLA4', 'Liu':'PD1', 'Kim':'PD1', 'IMvigor210':'PD-L1'}
 
 
