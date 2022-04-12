@@ -35,7 +35,7 @@ test_size = 0.2
 iternum = 100
 num_genes = 200
 qval_cutoff = 0.01
-datasets_to_test = ['Gide', 'Liu', 'Kim', 'IMvigor210'] 
+datasets_to_test = ['Kim'] # ['Gide', 'Liu', 'Kim', 'IMvigor210'] 
 target_dic = {'Gide':'PD1_CTLA4', 'Liu':'PD1', 'Kim':'PD1', 'IMvigor210':'PD-L1'}
 
 
