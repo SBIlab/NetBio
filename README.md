@@ -12,7 +12,7 @@
 - pytorch (1.7.1+cu110)
 
 ## Installation
-All packages can be installed via pip (https://pypi.org/project/pip/).
+All packages can be installed via pip (https://pypi.org/project/pip/). Generally, a couple of minutes is needed for installing each package.
 
 **e.g.** pip install sklearn
 
