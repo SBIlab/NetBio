@@ -1,6 +1,6 @@
 # NetBio
 ## Description
-Source codes for the results in "Network-based machine learning approach to predict immunotherapy response in cancer patients". 
+Source codes for generating results of "Network-based machine learning approach to predict immunotherapy response in cancer patients". 
 
 
 ## Requirements
